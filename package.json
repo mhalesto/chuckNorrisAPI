@@ -1,0 +1,21 @@
+{
+  "name": "chuckNorrisAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Halalisani",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.9.7",
+    "apollo-server": "^2.19.2",
+    "axios": "^0.21.1",
+    "graphql": "^15.4.0",
+    "nodemon": "^2.0.7"
+  }
+}
